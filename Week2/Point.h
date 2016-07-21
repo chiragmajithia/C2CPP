@@ -7,7 +7,7 @@ class Point
 		void setx(double x_);
 		void sety(double y_);
 		Point(double,double);
-		Point();
+		//Point();
 	private:
 		double x,y;
 };

@@ -1,8 +1,8 @@
 #include "Point.h"
 
 
-Point::Point(double x, double y){this->x = x, this->y = y;}
-Point::Point(){x = 0,y =0;}
+Point::Point(double x = 0, double y = 0){this->x = x, this->y = y;}
+//Point::Point(){x = 0,y =0;}
 double Point::getx() const{return x;}
 double Point::gety() const{return y;}
 void Point::setx(double x_){x = x_;}
