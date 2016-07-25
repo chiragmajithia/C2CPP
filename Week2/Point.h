@@ -6,7 +6,7 @@ class Point
 		double gety() const;
 		void setx(double x_);
 		void sety(double y_);
-		Point(double,double);
+		Point(double x = 0.0,double y = 0.0);
 		//Point();
 	private:
 		double x,y;
